@@ -12,7 +12,7 @@ This project implements single variable linear regression to predict a target va
 1. Make an instance for the linear regression model.
 2. Train the model with X_train and y_train.
 
-## 3️⃣ Predict the any data
+## 3️⃣ Predict any data
 ```
 print(regressor.predict([[12]]))   # Change the data for predicting salary
 ```
