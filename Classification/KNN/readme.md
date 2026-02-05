@@ -48,6 +48,10 @@ This is a **binary classification problem**.
 
 ---
 
+## 📊 Model Accuracy
+
+**Accuracy: 93%**
+
 ## 📊 Visualize Model Prediction
 
 ### 🔹 Training Set Results
@@ -71,6 +75,21 @@ The similarity between training and test decision regions indicates that the mod
 
 ---
 
+## Confusion Matrix
+
+![Confusion Matrix](assets/confusion_matrix.png)
+
+A confusion matrix is a table used to evaluate the performance of a classification model. It shows the counts of correct and incorrect predictions for each class.
+
+- **True Negatives (TN):** 64
+- **False Positives (FP):** 4
+- **False Negatives (FN):** 3
+- **True Positives (TP):** 29
+
+
 ## ✅ Conclusion
 
 The K-Nearest Neighbors model effectively classifies users based on **age and estimated salary** by relying on distance to nearby data points. This project helps in understanding **instance-based learning**, **feature scaling importance**, and **decision boundary visualization** in classification problems.
+
+---
+
